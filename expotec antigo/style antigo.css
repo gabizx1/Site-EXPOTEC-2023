@@ -1,0 +1,275 @@
+@import url(variable.css);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/**************** MENU SUPERIOR *****************/
+header {
+    padding: 20px 0px;
+    color: #a76fd1;
+    margin: auto;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--gray-200);
+    font-size: 18px;
+    color: white;
+}
+.btn a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--white);
+    background-color: var(--red);
+    transition: .5s;
+}
+.btn a:hover {
+    background-color: var(--red-dark);
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li {
+    margin-right: 40px;
+
+}
+.menu ul li a {
+    transition: .5s;
+}
+.menu ul li a:hover {
+    color: var(--red);
+}
+/**************** TELA INICIAL - HOME *****************/
+#home .container {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+#home {
+    padding: 200px 0px;
+}
+#home figure img {
+    width: 100%;
+}
+#home .data {
+    display: flex;
+    padding: 8px 14px;
+    border-radius: 10px;
+    color: var(--white);
+    background-color: #a76fd1;
+    margin-bottom: 30px;
+}
+#home ion-icon {
+    margin-right: 3px;
+    font-size: 20px;
+}
+.tx-intro h1 {
+    max-width: 1200px;
+    font-size: 45px;
+    line-height: 60px;
+    color: var(--gray-200);
+    margin-bottom: 60px;
+}
+.tx-intro a {
+    padding: 12px 26px;
+    border-radius: 10px;
+    color: var(--gray);
+    border: solid 2px var(--red);
+    background-color: none;
+    transition: .5s;
+}
+.tx-intro a:hover {
+    border: none;
+    background-color: var(--red);
+    color: var(--white);
+}
+.dats {
+    display: flex;
+}
+/**************** TELA SOBRE O EVENTO *****************/
+#sobre {
+    padding: 100px 0px;
+    padding-left: 200px;
+}
+#sobre figure img {
+    width: 500px;
+    height: 500px;
+}
+.tx-sobre h1 {
+    font-size: 25px;
+    line-height: 40px;
+    color: var(--gray-200);
+    margin-bottom: 24px;
+    text-align: center;
+}
+.tx-sobre p {
+    max-width: 500px;
+    line-height: 26px;
+    color: var(--gray);
+    margin-bottom: 28px;
+    text-align: justify;
+}
+.tx-sobre ion-icon {
+    font-size: 30px;
+    color: var(--green);
+}
+.tx-sobre ion-icon:hover {
+    color: var(--green-dark);
+}
+/**************** SEÇÃO O QUE TERÁ NO EVENTO *****************/
+.events .container {
+    flex-direction: column;
+    margin: auto;
+    text-align:center;
+    font-size: 14px;
+}
+.events .title {
+    margin-bottom: 30px;
+}
+.container-events {
+    max-width: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.container-events img {
+    width: 150px;
+    height: 150px;
+    margin-top: auto;
+}
+.single-events {
+    width: 200px;
+    height: 200px;
+    margin: 0 1px 100px 10px;
+    background: var(--white-200);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ds-events h3 {
+    color: var(--gray-200);
+}
+.datas {
+    padding: 60px 0;
+}
+.datas .container {
+    flex-direction: column;
+}
+.container-datas {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.dat {
+    width: 200px;
+    height: 110px;
+    text-align: center;
+    margin: 15px 40px;
+    padding: 15px 5px;
+    background-color: var(--red-dark);
+    border-radius: 10px;
+}
+.link-icon {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    color: white;
+}
+/**************** SEÇÃO SOBRE O RODAPÉ *****************/
+.liz {
+    align-items: center;
+    text-align: center;
+    font-size: 15x;
+}
+
+.realiz{
+    position: relative; 
+}
+.realiz img {
+    display: flex;
+    width: 50%;
+    height: 20%;
+}
+.rodape {
+    flex-direction: row;
+    display: flex;
+    background-color: gray;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    justify-content: center;
+}
+.rodape a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+.rodape p {
+    margin-bottom: 5px;
+}
+.rodape-div-coluna {
+    width: 30%;
+    display: flex;
+    text-align: justify;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.rodape-div-coluna img{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.rodape-direitos {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+/**************** CSS DAS TABELAS *****************/
+.programmations {
+    padding: 5vw;
+}
+.programmations .programmations-title {
+    font-size: 20px;
+    text-align: center;
+}
+table {
+    width: 90vw;
+    border-collapse: collapse;
+    margin: 5px auto;
+}
+table, td, th {
+    border: 2px solid;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 35px;
+}
+tr {
+    width: 100%;
+}
+td,th {
+    width: 33%;
+}
